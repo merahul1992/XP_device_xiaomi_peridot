@@ -23,6 +23,12 @@ $(call inherit-product-if-exists, device/xiaomi/peridot-miuicamera/device.mk)
 # Device config
 TARGET_BOOT_ANIMATION_RES := 1080
 
+MIST_MAINTAINER := "Rahul Patel"
+TARGET_SUPPORTS_BLUR := true
+TARGET_HAS_UDFPS := true
+WITH_GAPPS := true
+TARGET_INCLUDE_PIXEL_LAUNCHER := false
+
 PRODUCT_NAME := mist_peridot
 PRODUCT_DEVICE := peridot
 PRODUCT_MANUFACTURER := Xiaomi
